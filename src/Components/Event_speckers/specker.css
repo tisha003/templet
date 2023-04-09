@@ -1,0 +1,33 @@
+.text_t{
+    /* border: 1px solid red; */
+    background-color: rgba(7, 2, 22, 0.711);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    bottom: -35px;
+}
+.imges:hover .text_t{
+    bottom: 0;
+}
+.imges{
+    overflow: hidden;
+    position: relative;
+}
+.imges:hover .span{
+    /* display: block; */
+    opacity: 1;
+    /* position: relative; */
+}
+.span{
+    /* position: absolute; */
+    /* bottom: -30px; */
+    /* display: none; */
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+p{
+    font-style: italic;
+}

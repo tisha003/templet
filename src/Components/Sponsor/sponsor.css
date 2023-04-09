@@ -1,0 +1,25 @@
+.bord{
+    border-right: 1px solid rgb(198, 194, 194);
+    border-bottom: 1px solid rgb(175, 172, 172);
+    background-color: white;
+
+    /* margin-bottom: 10px; */
+}
+.bord:hover .spoimg{
+    transform: scale(1.2);
+}
+.bord .spoimg{
+    transition: all 0.5s ease-in-out;
+}
+.bord{
+    overflow: hidden;
+}
+
+.mai{
+    border-top: 1px solid rgb(183, 179, 179);
+    border-left: 1px solid rgb(174, 171, 171);
+    padding-left: 20px;
+}
+.sec7{
+    background-color: rgb(245, 249, 250);
+}

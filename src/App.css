@@ -1,0 +1,19 @@
+#pera{
+    position: relative;
+    margin-bottom: 30px;
+}
+#pera::before{
+    content: '';
+    position: absolute;
+    top: 140%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 80px;
+    background-color: red;
+
+}
+*{
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}

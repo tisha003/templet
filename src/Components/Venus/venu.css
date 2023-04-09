@@ -1,0 +1,32 @@
+.div1:hover img{
+    transform: scale(1.1);
+}
+.div1 img{
+    transition: all 0.5s ease-in-out;
+}
+.div1{
+    overflow: hidden;
+    /* width: 355px;
+    height: 355px; */
+}
+/* .imgc{
+    width: 100%;
+    height: 100%;
+} */
+.img_pera{
+    position: relative;
+}
+.pera_text{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.opac{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background-image: linear-gradient(rgba(13, 13, 13, 0.763),rgba(4, 2, 29, 0.765), rgba(9, 9, 9, 0.706));
+
+}

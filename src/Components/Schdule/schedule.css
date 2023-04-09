@@ -1,0 +1,24 @@
+h4{
+    display: inline-block;
+}
+.text3{
+    color: rgb(2, 2, 53);
+}
+.span1{
+    font-size: 19px;
+    color: rgb(26, 26, 102);
+}
+.pera{
+    color: rgb(25, 25, 130);
+    font-size: 20px;
+}
+.sec3:hover{
+    background-color: white;
+}
+.img1{
+    width: 100px;
+    border-radius: 50%;
+}
+.sec4{
+    background-color:  rgb(245, 249, 250);
+}
